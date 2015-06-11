@@ -1,0 +1,32 @@
+{
+  "name": "mean-todo",
+  "version": "0.0.0",
+  "description": "Just todo application",
+  "main": "server.js",
+  "author": "Dmitry Ivanov",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "method-override": "^2.3.3",
+    "mongoose": "^4.0.5",
+    "morgan": "^1.5.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitryIvanov92/MEAN-todo.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "AngularJS"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryIvanov92/MEAN-todo/issues"
+  },
+  "homepage": "https://github.com/DmitryIvanov92/MEAN-todo"
+}
