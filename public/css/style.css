@@ -5,5 +5,36 @@ body {
 	padding-top: 50px;
 }
 #todo-list {
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
+}
+/*--------------------------------*/
+.todo-window .modal-header {
+	background: #27ae60;
+	border-radius: 6px 6px 0 0;
+	color: #ffffff;
+}
+.todo-window .modal-footer {
+	text-align: center;
+}
+.todo-window .modal-body {
+	/*background: #ecf0f1;*/
+}
+.todo-window .checkbox input {
+	margin-top: 7px;
+}
+.todo-window .checkbox label {
+	min-height: 35px;
+	padding-left: 0;
+	font-size: 20px;
+}
+.todo-window .modal-footer {
+	background: #ecf0f1;
+	border-radius: 0 0 6px 6px;
+}
+.todo-window .navbar-form .input-group {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
